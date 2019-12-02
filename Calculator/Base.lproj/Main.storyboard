@@ -18,7 +18,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="QFX-bh-Cte">
                                 <rect key="frame" x="40" y="74" width="334" height="114.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F1A-Dg-INt">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="middleTruncation" numberOfLines="0" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="F1A-Dg-INt">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="114.5"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -78,7 +78,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="ClearAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Sh-rh-3F3"/>
+                                                    <action selector="Operation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="06c-py-uW7"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -128,6 +128,9 @@
                                                 <state key="normal" title="÷">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="Operation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3oK-DW-gRe"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -176,6 +179,9 @@
                                                 <state key="normal" title="-">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="Operation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dbn-KI-jGr"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -210,6 +216,9 @@
                                                 <state key="normal" title="x">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="Operation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sgr-rr-DoD"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWq-ma-bIo">
                                                 <rect key="frame" x="255" y="0.0" width="79" height="85.5"/>
@@ -239,7 +248,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="Equal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NrO-Iy-1re"/>
+                                            <action selector="Operation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="obz-Rb-cma"/>
                                         </connections>
                                     </button>
                                 </subviews>
