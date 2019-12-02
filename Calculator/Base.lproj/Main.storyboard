@@ -208,6 +208,9 @@
                                                 <state key="normal" title=".">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="ButtonPressedValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JKl-dk-yDm"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8VF-Si-PCk">
                                                 <rect key="frame" x="170" y="0.0" width="79" height="85.5"/>

@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     var result = 0.0
     var MathOperation = false
     var operation = 0
+    var point = "."
 
     @IBOutlet weak var ResultShowLbl: UILabel!
     override func viewDidLoad() {
@@ -28,8 +29,9 @@ class ViewController: UIViewController {
     @IBAction func ButtonPressedValue(_ sender: Any) {
         
         let tag = (sender as! UIButton).tag
+   
         firstElement = firstElement + String(tag)
-        ResultShowLbl.text = firstElement
+            ResultShowLbl.text = firstElement
         
         if (MathOperation == true){
         secondValue = Double(firstElement)!
